@@ -25,6 +25,10 @@
 * Database: MySQL
 * Server: Apache
 
+## WORK FLOW
+
+![Work flow](https://github.com/kanishk30/media_service/blob/master/Work%20flow.PNG "Work flow")
+
 ## ERROR HANDLING
 * Unsupported image format: It only accepts jpeg, png or gif as input, else it would display an error message.
 * Fields can’t be empty.
