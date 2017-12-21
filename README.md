@@ -31,7 +31,7 @@
 
 ## ERROR HANDLING
 * To support large files, the server's memeory size needs to be adjusted. This can be achieved by altering the values of the attributes `memory_limit` and `upload_max_filesize` in `php.ini` file. 
-* Writing `ini_set('memory_limit', '-1');` can bypass memory limit, but it can crash server due to memory leak. Hence, NOT RECOMMENDED. 
+* Writing `ini_set('memory_limit', '-1');` can bypass memory limit, but it can crash server due to memory leak. Hence, **NOT RECOMMENDED**. 
 * Unsupported image format: It only accepts jpeg, png or gif as input, else it would display an error message.
 * Fields can’t be empty.
 
