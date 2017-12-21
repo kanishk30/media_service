@@ -14,10 +14,10 @@
  * Small resolution (Mobile) [ <=560px] . Image size:  128x128px
 
 ## APPROACH TO THE PROBLEM
-* Have build a basic blog consisting of title, body and cover image.
+* Have build a basic blog to simulate the problem.
 * User can post a new blog and read an existing one.
 * While reading the blog, based on the browser size or device( mobile, tablet, or desktop/laptop) the image will adjust itself 
-* detecting the device based on size and dimension.
+* Detecting the device based on width.
 
 ## STACK USED
 * Front end: HTML, CSS, Bootstrap, Javascript, JQuery
