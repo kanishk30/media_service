@@ -52,7 +52,7 @@
 * Shifting from Core PHP to its frameworks, like Laravel, can greatly improve the performance and DX. 
 
 ## VIDEO DEMONSTRATION
-Following video shows thw live working of the service.
+Following video shows the live working of the service.
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=tK5Fp_IKCPk" target="_blank"><img src="http://img.youtube.com/vi/tK5Fp_IKCPk/0.jpg" 
 alt="Working" width="240" height="180" border="10" /></a>
