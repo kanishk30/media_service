@@ -9,9 +9,9 @@
 ## CHALLENGE
 * User’s device or Browser size should be detected, and the corresponding image should be loaded.
 * Corresponding image: 
- * High resolution ( Laptop/Desktop) 1280x720px
- * Medium resolution ( Tablet, etc ) 640x480px
- * Small resolution (Mobile) 128x128px
+ * High resolution ( Laptop/Desktop) [ >=768px] . Image size: 1280x720px
+ * Medium resolution ( Tablet, etc )[ Between 560px & 768px] . Image size:  640x480px
+ * Small resolution (Mobile) [ <=560px] . Image size:  128x128px
 
 ## APPROACH TO THE PROBLEM
 * Have build a basic blog consisting of title, body and cover image.
@@ -30,6 +30,8 @@
 ![Work flow](https://github.com/kanishk30/media_service/blob/master/Work%20flow.PNG "Work flow")
 
 ## ERROR HANDLING
+* To support large files, the server's memeory size needs to be adjusted. This can be achieved by altering the values of the attributes `memory_limit` and `upload_max_filesize` in `php.ini` file. 
+* Writing `ini_set('memory_limit', '-1');` can bypass memory limit, but it can crash server due to memory leak. Hence, NOT RECOMMENDED. 
 * Unsupported image format: It only accepts jpeg, png or gif as input, else it would display an error message.
 * Fields can’t be empty.
 
