@@ -16,7 +16,8 @@
 ## APPROACH TO THE PROBLEM
 * Have build a basic blog consisting of title, body and cover image.
 * User can post a new blog and read an existing one.
-* While reading the blog, based on the browser size or device( mobile, tablet, or desktop/laptop) the image will adjust itself * detecting the device based on size and dimension.
+* While reading the blog, based on the browser size or device( mobile, tablet, or desktop/laptop) the image will adjust itself 
+* detecting the device based on size and dimension.
 
 ## STACK USED
 * Front end: HTML, CSS, Bootstrap, Javascript, JQuery
@@ -50,7 +51,7 @@
 Following video shows thw live working of the service.
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=tK5Fp_IKCPk" target="_blank"><img src="http://img.youtube.com/vi/tK5Fp_IKCPk/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+alt="Working" width="240" height="180" border="10" /></a>
 
 ## HOW TO GET STARTED
 ```php
