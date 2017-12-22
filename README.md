@@ -64,7 +64,19 @@ alt="Working" width="240" height="180" border="10" /></a>
 sudo apt-get update
 sudo apt-get install apache2
 sudo apt-get install mysql-server libapache2-mod-auth-mysql php5-mysql
-sudo apt-get install php5 libapache2-mod-php5 php5-mcrypt
+sudo apt-get install mariadb-server
+sudo mysql_secure_installation
+sudo apt-get install php7-nightly
+sudo cp /usr/local/php7/libphp7.so /usr/lib/apache2/modules/
+sudo cp /usr/local/php7/libphp7.so /usr/lib/apache2/modules/
+
+We now need to edit /etc/apache2/apache2.conf and add the following lines to the bottom of the file.
+
+<FilesMatch \.php$>
+SetHandler application/x-httpd-php
+</FilesMatch>
+
+sudo a2dismod mpm_event && a2enmod mpm_prefork && a2enmod php7
 sudo service apache2 restart 
 mysql -u <username> -p<PlainPassword> <databasename> < <database.sql>
 sudo apt-get install git
